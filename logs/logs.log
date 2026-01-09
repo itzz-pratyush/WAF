@@ -1,0 +1,1548 @@
+---Kc4Q8l8n---A--
+[01/Jan/2026:16:25:01 +0000] 176728470144.455494 122.170.197.189 13458 172.31.4.97 80
+---Kc4Q8l8n---B--
+GET / HTTP/1.1
+Host: 43.204.237.35
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+If-None-Match: W/"695689c7-267"
+If-Modified-Since: Thu, 01 Jan 2026 14:50:47 GMT
+
+---Kc4Q8l8n---D--
+
+---Kc4Q8l8n---F--
+HTTP/1.1 304
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 16:25:01 GMT
+Last-Modified: Thu, 01 Jan 2026 14:50:47 GMT
+Connection: keep-alive
+ETag: "695689c7-267"
+
+---Kc4Q8l8n---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+
+---Kc4Q8l8n---I--
+
+---Kc4Q8l8n---J--
+
+---Kc4Q8l8n---Z--
+
+
+---tAaZjU3m---A--
+[01/Jan/2026:16:32:20 +0000] 176728514048.514734 45.56.79.53 35816 172.31.4.97 80
+---tAaZjU3m---B--
+GET / HTTP/1.1
+Host: 43.204.237.35
+Accept: */*
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 zgrab/0.x
+
+---tAaZjU3m---D--
+
+---tAaZjU3m---E--
+<html>\x0d\x0a<head><title>403 Forbidden</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>403 Forbidden</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---tAaZjU3m---F--
+HTTP/1.1 403
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 16:32:20 GMT
+Content-Length: 162
+Content-Type: text/html
+Connection: keep-alive
+
+---tAaZjU3m---H--
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `scanners-user-agents.data' against variable `REQUEST_HEADERS:User-Agent' (Value: `Mozilla/5.0 zgrab/0.x' ) >
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+ModSecurity: Access denied with code 403 (phase 2). Matched "Operator `Ge' with parameter `5' against variable `TX:BLOCKING_INBOUND_ANOMALY_SCORE' (Value: `8' ) [file "/usr/sha>
+
+---tAaZjU3m---I--
+
+---tAaZjU3m---J--
+
+---tAaZjU3m---Z--
+
+
+---yPU0kIIX---A--
+[01/Jan/2026:16:33:06 +0000] 176728518654.200042 172.104.11.51 28316 172.31.4.97 80
+---yPU0kIIX---B--
+GET / HTTP/1.1
+Host: 43.204.237.35
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip
+
+---yPU0kIIX---D--
+
+---yPU0kIIX---E--
+<!DOCTYPE html>\x0a<html>\x0a<head>\x0a<title>Welcome to nginx!</title>\x0a<style>\x0ahtml { color-scheme: light dark; }\x0abody { width: 35em; margin: 0 auto;\x0afont-family: >
+
+---yPU0kIIX---F--
+HTTP/1.1 200
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 16:33:06 GMT
+Content-Length: 615
+Content-Type: text/html
+Last-Modified: Thu, 01 Jan 2026 14:50:47 GMT
+Connection: keep-alive
+ETag: "695689c7-267"
+
+---yPU0kIIX---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+
+---yPU0kIIX---I--
+
+---yPU0kIIX---J--
+
+---yPU0kIIX---Z--
+
+
+---HYUgu2xD---A--
+[01/Jan/2026:16:36:07 +0000] 176728536755.825540 101.32.192.203 37122 172.31.4.97 80
+---HYUgu2xD---B--
+HEAD /Core/Skin/Login.aspx HTTP/1.1
+Host: 43.204.237.35:80
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Proxy-Connection: keep-alive
+Accept-Language: zh-CN,zh;q=0.9
+Cache-Control: no-cache
+Pragma: no-cache
+
+---HYUgu2xD---D--
+
+---HYUgu2xD---F--
+HTTP/1.1 404
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 16:36:07 GMT
+Content-Length: 564
+Content-Type: text/html
+Connection: keep-alive
+
+---HYUgu2xD---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35:80'>
+
+---HYUgu2xD---I--
+
+---HYUgu2xD---J--
+
+---HYUgu2xD---Z--
+
+
+---c1dlllYe---A--
+[01/Jan/2026:16:54:23 +0000] 176728646345.385556 122.170.197.189 7278 172.31.4.97 80
+---c1dlllYe---B--
+GET / HTTP/1.1
+Host: 43.204.237.35
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+If-None-Match: W/"695689c7-267"
+If-Modified-Since: Thu, 01 Jan 2026 14:50:47 GMT
+
+---c1dlllYe---D--
+
+---c1dlllYe---F--
+HTTP/1.1 304
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 16:54:23 GMT
+Last-Modified: Thu, 01 Jan 2026 14:50:47 GMT
+Connection: keep-alive
+ETag: "695689c7-267"
+
+---c1dlllYe---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+
+---c1dlllYe---I--
+
+---c1dlllYe---J--
+
+---c1dlllYe---Z--
+
+
+---w6DdYEPU---A--
+[01/Jan/2026:16:54:41 +0000] 176728648193.088804 122.170.197.189 7278 172.31.4.97 80
+---w6DdYEPU---B--
+GET /?exec=/bin/bash/ HTTP/1.1
+Host: 43.204.237.35
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+---w6DdYEPU---D--
+
+---w6DdYEPU---E--
+<html>\x0d\x0a<head><title>403 Forbidden</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>403 Forbidden</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---w6DdYEPU---F--
+HTTP/1.1 403
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 16:54:41 GMT
+Content-Length: 564
+Content-Type: text/html
+Connection: keep-alive
+
+---w6DdYEPU---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `unix-shell.data' against variable `ARGS:exec' (Value: `/bin/bash/' ) [file "/usr/share/modsecurity-crs/rule>
+ModSecurity: Access denied with code 403 (phase 2). Matched "Operator `Ge' with parameter `5' against variable `TX:BLOCKING_INBOUND_ANOMALY_SCORE' (Value: `8' ) [file "/usr/sha>
+
+---w6DdYEPU---I--
+
+---w6DdYEPU---J--
+
+---w6DdYEPU---Z--
+
+
+---duVMCntU---A--
+[01/Jan/2026:17:03:43 +0000] 176728702337.769706 122.170.197.189 5785 172.31.4.97 80
+---duVMCntU---B--
+GET /?exec=/bin/bash/ HTTP/1.1
+Host: 43.204.237.35
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+---duVMCntU---D--
+
+---duVMCntU---E--
+<html>\x0d\x0a<head><title>403 Forbidden</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>403 Forbidden</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---duVMCntU---F--
+HTTP/1.1 403
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 17:03:43 GMT
+Content-Length: 564
+Content-Type: text/html
+Connection: keep-alive
+
+---duVMCntU---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `unix-shell.data' against variable `ARGS:exec' (Value: `/bin/bash/' ) [file "/usr/share/modsecurity-crs/rule>
+ModSecurity: Access denied with code 403 (phase 2). Matched "Operator `Ge' with parameter `5' against variable `TX:BLOCKING_INBOUND_ANOMALY_SCORE' (Value: `8' ) [file "/usr/sha>
+
+---duVMCntU---I--
+
+---duVMCntU---J--
+
+---duVMCntU---Z--
+
+
+---JN8DP5Q2---A--
+[01/Jan/2026:17:03:48 +0000] 17672870282.242477 122.170.197.189 5785 172.31.4.97 80
+---JN8DP5Q2---B--
+GET /?exec=/ HTTP/1.1
+Host: 43.204.237.35
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+---JN8DP5Q2---D--
+
+---JN8DP5Q2---E--
+<!DOCTYPE html>\x0a<html>\x0a<head>\x0a<title>Welcome to nginx!</title>\x0a<style>\x0ahtml { color-scheme: light dark; }\x0abody { width: 35em; margin: 0 auto;\x0afont-family: >
+
+---JN8DP5Q2---F--
+HTTP/1.1 200
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 17:03:48 GMT
+Content-Length: 615
+Content-Type: text/html
+Last-Modified: Thu, 01 Jan 2026 14:50:47 GMT
+Connection: keep-alive
+ETag: "695689c7-267"
+
+---JN8DP5Q2---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+
+---JN8DP5Q2---I--
+
+---JN8DP5Q2---J--
+
+---JN8DP5Q2---Z--
+
+
+---51lqnHUh---A--
+[01/Jan/2026:17:03:54 +0000] 176728703498.252834 122.170.197.189 5785 172.31.4.97 80
+---51lqnHUh---B--
+GET /?exec=/usr/sh HTTP/1.1
+Host: 43.204.237.35
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+---51lqnHUh---D--
+
+---51lqnHUh---E--
+<html>\x0d\x0a<head><title>403 Forbidden</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>403 Forbidden</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---51lqnHUh---F--
+HTTP/1.1 403
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 17:03:54 GMT
+Content-Length: 564
+Content-Type: text/html
+Connection: keep-alive
+
+---51lqnHUh---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?i)(?:^|b[\"'\)\[\x5c]*(?:(?:(?:\|\||&&)[\s\x0b]*)?\$[!#\(\*\-0-9\?@_a-\{]*)?\x5c?u[\"'\)\[\x5c]*(?:(?:(?:\|\||&&)>
+ModSecurity: Access denied with code 403 (phase 2). Matched "Operator `Ge' with parameter `5' against variable `TX:BLOCKING_INBOUND_ANOMALY_SCORE' (Value: `8' ) [file "/usr/sha>
+
+---51lqnHUh---I--
+
+---51lqnHUh---J--
+
+---51lqnHUh---Z--
+
+
+---NgIvuhQW---A--
+[01/Jan/2026:17:03:59 +0000] 176728703913.673556 122.170.197.189 5785 172.31.4.97 80
+---NgIvuhQW---B--
+GET /?exec HTTP/1.1
+Host: 43.204.237.35
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+---NgIvuhQW---D--
+
+---NgIvuhQW---E--
+<!DOCTYPE html>\x0a<html>\x0a<head>\x0a<title>Welcome to nginx!</title>\x0a<style>\x0ahtml { color-scheme: light dark; }\x0abody { width: 35em; margin: 0 auto;\x0afont-family: >
+
+---NgIvuhQW---F--
+HTTP/1.1 200
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 17:03:59 GMT
+Content-Length: 615
+Content-Type: text/html
+Last-Modified: Thu, 01 Jan 2026 14:50:47 GMT
+Connection: keep-alive
+ETag: "695689c7-267"
+
+---NgIvuhQW---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+
+---NgIvuhQW---I--
+
+---NgIvuhQW---J--
+
+---NgIvuhQW---Z--
+
+
+---ZtsmejEx---A--
+[01/Jan/2026:17:04:02 +0000] 176728704273.800039 122.170.197.189 5785 172.31.4.97 80
+---ZtsmejEx---B--
+GET /? HTTP/1.1
+Host: 43.204.237.35
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+---ZtsmejEx---D--
+
+---ZtsmejEx---E--
+<!DOCTYPE html>\x0a<html>\x0a<head>\x0a<title>Welcome to nginx!</title>\x0a<style>\x0ahtml { color-scheme: light dark; }\x0abody { width: 35em; margin: 0 auto;\x0afont-family: >
+
+---ZtsmejEx---F--
+HTTP/1.1 200
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 17:04:02 GMT
+Content-Length: 615
+Content-Type: text/html
+Last-Modified: Thu, 01 Jan 2026 14:50:47 GMT
+Connection: keep-alive
+ETag: "695689c7-267"
+
+---ZtsmejEx---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+
+---ZtsmejEx---I--
+
+---ZtsmejEx---J--
+
+---ZtsmejEx---Z--
+
+
+---5M8SPXSS---A--
+[01/Jan/2026:17:04:10 +0000] 176728705049.487747 122.170.197.189 5785 172.31.4.97 80
+---5M8SPXSS---B--
+GET /' HTTP/1.1
+Host: 43.204.237.35
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+---5M8SPXSS---D--
+
+---5M8SPXSS---E--
+<html>\x0d\x0a<head><title>404 Not Found</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>404 Not Found</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---5M8SPXSS---F--
+HTTP/1.1 404
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 17:04:10 GMT
+Content-Length: 564
+Content-Type: text/html
+Connection: keep-alive
+
+---5M8SPXSS---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+
+---5M8SPXSS---I--
+
+---5M8SPXSS---J--
+
+---5M8SPXSS---Z--
+
+
+---YDIJUl0p---A--
+[01/Jan/2026:17:04:17 +0000] 176728705773.336174 122.170.197.189 5785 172.31.4.97 80
+---YDIJUl0p---B--
+GET /' HTTP/1.1
+Host: 43.204.237.35
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+---YDIJUl0p---D--
+
+---YDIJUl0p---E--
+<html>\x0d\x0a<head><title>404 Not Found</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>404 Not Found</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---YDIJUl0p---F--
+HTTP/1.1 404
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 17:04:17 GMT
+Content-Length: 564
+Content-Type: text/html
+Connection: keep-alive
+
+---YDIJUl0p---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+
+---YDIJUl0p---I--
+
+---YDIJUl0p---J--
+
+---YDIJUl0p---Z--
+
+
+---PIjJy7nX---A--
+[01/Jan/2026:17:19:58 +0000] 176728799840.134969 43.204.237.35 33960 172.31.4.97 80
+---PIjJy7nX---B--
+HEAD / HTTP/1.1
+Host: 43.204.237.35
+User-Agent: curl/8.5.0
+Accept: */*
+
+---PIjJy7nX---D--
+
+---PIjJy7nX---F--
+HTTP/1.1 200
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 17:19:58 GMT
+        Content-Length: 615
+Content-Type: text/html
+Last-Modified: Thu, 01 Jan 2026 14:50:47 GMT
+Connection: keep-alive
+ETag: "695689c7-267"
+
+---PIjJy7nX---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+
+---PIjJy7nX---I--
+
+---PIjJy7nX---J--
+
+---PIjJy7nX---Z--
+
+
+---0dHcLVXQ---A--
+[01/Jan/2026:17:22:12 +0000] 17672881321.808941 122.170.197.189 33249 172.31.4.97 80
+---0dHcLVXQ---B--
+GET /?path=/etc/passwd/ HTTP/1.1
+Host: 43.204.237.35
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+---0dHcLVXQ---D--
+
+---0dHcLVXQ---E--
+<html>\x0d\x0a<head><title>403 Forbidden</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>403 Forbidden</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---0dHcLVXQ---F--
+HTTP/1.1 403
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 17:22:12 GMT
+Content-Length: 564
+Content-Type: text/html
+Connection: keep-alive
+
+---0dHcLVXQ---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `lfi-os-files.data' against variable `ARGS:path' (Value: `/etc/passwd/' ) [file "/usr/share/modsecurity-crs/>
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `unix-shell.data' against variable `ARGS:path' (Value: `/etc/passwd/' ) [file "/usr/share/modsecurity-crs/ru>
+ModSecurity: Access denied with code 403 (phase 2). Matched "Operator `Ge' with parameter `5' against variable `TX:BLOCKING_INBOUND_ANOMALY_SCORE' (Value: `13' ) [file "/usr/sh>
+
+---0dHcLVXQ---I--
+
+---0dHcLVXQ---J--
+
+---0dHcLVXQ---Z--
+
+
+---pdsDALfh---A--
+[01/Jan/2026:17:22:31 +0000] 176728815199.241669 122.170.197.189 33249 172.31.4.97 80
+---pdsDALfh---B--
+GET /?path=/proc/version/ HTTP/1.1
+Host: 43.204.237.35
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+---pdsDALfh---D--
+
+---pdsDALfh---E--
+<html>\x0d\x0a<head><title>403 Forbidden</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>403 Forbidden</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---pdsDALfh---F--
+HTTP/1.1 403
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 17:22:31 GMT
+Content-Length: 564
+Content-Type: text/html
+Connection: keep-alive
+
+---pdsDALfh---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `lfi-os-files.data' against variable `ARGS:path' (Value: `/proc/version/' ) [file "/usr/share/modsecurity-cr>
+ModSecurity: Access denied with code 403 (phase 2). Matched "Operator `Ge' with parameter `5' against variable `TX:BLOCKING_INBOUND_ANOMALY_SCORE' (Value: `8' ) [file "/usr/sha>
+
+---pdsDALfh---I--
+
+---pdsDALfh---J--
+
+---pdsDALfh---Z--
+
+
+---Ww0zhzm6---A--
+[01/Jan/2026:17:22:44 +0000] 176728816418.383682 122.170.197.189 33249 172.31.4.97 80
+---Ww0zhzm6---B--
+GET /?exec=/proc/version/ HTTP/1.1
+Host: 43.204.237.35
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+---Ww0zhzm6---D--
+
+---Ww0zhzm6---E--
+<html>\x0d\x0a<head><title>403 Forbidden</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>403 Forbidden</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---Ww0zhzm6---F--
+HTTP/1.1 403
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 17:22:44 GMT
+Content-Length: 564
+Content-Type: text/html
+Connection: keep-alive
+
+---Ww0zhzm6---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `lfi-os-files.data' against variable `ARGS:exec' (Value: `/proc/version/' ) [file "/usr/share/modsecurity-cr>
+ModSecurity: Access denied with code 403 (phase 2). Matched "Operator `Ge' with parameter `5' against variable `TX:BLOCKING_INBOUND_ANOMALY_SCORE' (Value: `8' ) [file "/usr/sha>
+
+---Ww0zhzm6---I--
+
+---Ww0zhzm6---J--
+
+---Ww0zhzm6---Z--
+
+
+---FVNBcBja---A--
+[01/Jan/2026:17:33:08 +0000] 176728878876.136896 122.170.197.189 19071 172.31.4.97 80
+---FVNBcBja---B--
+GET /?exec=/proc/version/ HTTP/1.1
+Host: 43.204.237.35
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+---FVNBcBja---D--
+
+---FVNBcBja---E--
+<html>\x0d\x0a<head><title>403 Forbidden</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>403 Forbidden</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---FVNBcBja---F--
+HTTP/1.1 403
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 17:33:08 GMT
+Content-Length: 564
+Content-Type: text/html
+Connection: keep-alive
+
+---FVNBcBja---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `lfi-os-files.data' against variable `ARGS:exec' (Value: `/proc/version/' ) [file "/usr/share/modsecurity-cr>
+ModSecurity: Access denied with code 403 (phase 2). Matched "Operator `Ge' with parameter `5' against variable `TX:BLOCKING_INBOUND_ANOMALY_SCORE' (Value: `8' ) [file "/usr/sha>
+
+---FVNBcBja---I--
+
+---FVNBcBja---J--
+
+---FVNBcBja---Z--
+
+
+---m0A7UhXH---A--
+[01/Jan/2026:17:33:13 +0000] 176728879368.594863 122.170.197.189 19071 172.31.4.97 80
+---m0A7UhXH---B--
+GET / HTTP/1.1
+Host: 43.204.237.35
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+If-None-Match: W/"695689c7-267"
+If-Modified-Since: Thu, 01 Jan 2026 14:50:47 GMT
+
+---m0A7UhXH---D--
+
+---m0A7UhXH---F--
+HTTP/1.1 304
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 17:33:13 GMT
+Last-Modified: Thu, 01 Jan 2026 14:50:47 GMT
+Connection: keep-alive
+ETag: "695689c7-267"
+
+---m0A7UhXH---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+
+---m0A7UhXH---I--
+
+---m0A7UhXH---J--
+
+---m0A7UhXH---Z--
+
+
+---JOUTh88B---A--
+[01/Jan/2026:17:50:18 +0000] 176728981843.780172 103.203.57.3 57078 172.31.4.97 80
+---JOUTh88B---B--
+GET / HTTP/1.1
+Host: 43.204.237.35
+User-Agent: Mozilla/5.0 zgrab/0.x
+Accept: */*
+Accept-Encoding: gzip
+
+---JOUTh88B---D--
+
+---JOUTh88B---E--
+<html>\x0d\x0a<head><title>403 Forbidden</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>403 Forbidden</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---JOUTh88B---F--
+HTTP/1.1 403
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 17:50:18 GMT
+Content-Length: 162
+Content-Type: text/html
+Connection: keep-alive
+
+---JOUTh88B---H--
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `scanners-user-agents.data' against variable `REQUEST_HEADERS:User-Agent' (Value: `Mozilla/5.0 zgrab/0.x' ) >
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+ModSecurity: Access denied with code 403 (phase 2). Matched "Operator `Ge' with parameter `5' against variable `TX:BLOCKING_INBOUND_ANOMALY_SCORE' (Value: `8' ) [file "/usr/sha>
+
+---JOUTh88B---I--
+
+---JOUTh88B---J--
+
+---JOUTh88B---Z--
+
+
+---49Al6vpL---A--
+[01/Jan/2026:17:51:16 +0000] 176728987661.722406 122.170.197.189 16176 172.31.4.97 80
+---49Al6vpL---B--
+GET / HTTP/1.1
+Host: 43.204.237.35
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+If-None-Match: W/"695689c7-267"
+If-Modified-Since: Thu, 01 Jan 2026 14:50:47 GMT
+
+---49Al6vpL---D--
+
+---49Al6vpL---F--
+HTTP/1.1 304
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 17:51:16 GMT
+Last-Modified: Thu, 01 Jan 2026 14:50:47 GMT
+Connection: keep-alive
+ETag: "695689c7-267"
+
+---49Al6vpL---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+
+---49Al6vpL---I--
+
+---49Al6vpL---J--
+
+---49Al6vpL---Z--
+
+
+---lMp4Mjvw---A--
+[01/Jan/2026:17:52:15 +0000] 176728993552.746445 122.170.197.189 26674 172.31.4.97 80
+---lMp4Mjvw---B--
+GET /?exec=/bin/bash/ HTTP/1.1
+Host: 43.204.237.35
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+---lMp4Mjvw---D--
+
+---lMp4Mjvw---E--
+<html>\x0d\x0a<head><title>403 Forbidden</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>403 Forbidden</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---lMp4Mjvw---F--
+HTTP/1.1 403
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 17:52:15 GMT
+Content-Length: 564
+Content-Type: text/html
+Connection: keep-alive
+
+---lMp4Mjvw---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `unix-shell.data' against variable `ARGS:exec' (Value: `/bin/bash/' ) [file "/usr/share/modsecurity-crs/rule>
+ModSecurity: Access denied with code 403 (phase 2). Matched "Operator `Ge' with parameter `5' against variable `TX:BLOCKING_INBOUND_ANOMALY_SCORE' (Value: `8' ) [file "/usr/sha>
+
+---lMp4Mjvw---I--
+
+---lMp4Mjvw---J--
+
+---lMp4Mjvw---Z--
+
+
+---kMlaMGFD---A--
+[01/Jan/2026:17:53:18 +0000] 176728999832.057102 122.170.197.189 26674 172.31.4.97 80
+---kMlaMGFD---B--
+GET /?path=/bin/bash/ HTTP/1.1
+Host: 43.204.237.35
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+---kMlaMGFD---D--
+
+---kMlaMGFD---E--
+<html>\x0d\x0a<head><title>403 Forbidden</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>403 Forbidden</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---kMlaMGFD---F--
+HTTP/1.1 403
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 17:53:18 GMT
+Content-Length: 564
+Content-Type: text/html
+Connection: keep-alive
+
+---kMlaMGFD---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `unix-shell.data' against variable `ARGS:path' (Value: `/bin/bash/' ) [file "/usr/share/modsecurity-crs/rule>
+ModSecurity: Access denied with code 403 (phase 2). Matched "Operator `Ge' with parameter `5' against variable `TX:BLOCKING_INBOUND_ANOMALY_SCORE' (Value: `8' ) [file "/usr/sha>
+
+---kMlaMGFD---I--
+
+---kMlaMGFD---J--
+
+---kMlaMGFD---Z--
+
+
+---5qzScsqS---A--
+[01/Jan/2026:18:27:51 +0000] 176729207167.944489 91.224.92.121 40002 172.31.4.97 80
+---5qzScsqS---B--
+OPTIONS / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.199 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: 43.204.237.35:80
+
+---5qzScsqS---D--
+
+---5qzScsqS---E--
+<html>\x0d\x0a<head><title>405 Not Allowed</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>405 Not Allowed</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x>
+
+---5qzScsqS---F--
+HTTP/1.1 405
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 18:27:51 GMT
+Content-Length: 568
+Content-Type: text/html
+Connection: keep-alive
+
+---5qzScsqS---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35:80'>
+
+---5qzScsqS---I--
+
+---5qzScsqS---J--
+
+---5qzScsqS---Z--
+
+
+---1NqnfggO---A--
+[01/Jan/2026:18:34:20 +0000] 176729246072.575338 143.198.201.21 41398 172.31.4.97 80
+---1NqnfggO---B--
+GET /.git/config HTTP/1.1
+Host: 43.204.237.35
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+---1NqnfggO---D--
+
+---1NqnfggO---E--
+<html>\x0d\x0a<head><title>403 Forbidden</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>403 Forbidden</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---1NqnfggO---F--
+HTTP/1.1 403
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 18:34:20 GMT
+Content-Length: 162
+Content-Type: text/html
+Connection: keep-alive
+
+---1NqnfggO---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `restricted-files.data' against variable `REQUEST_FILENAME' (Value: `/.git/config' ) [file "/usr/share/modse>
+ModSecurity: Access denied with code 403 (phase 2). Matched "Operator `Ge' with parameter `5' against variable `TX:BLOCKING_INBOUND_ANOMALY_SCORE' (Value: `8' ) [file "/usr/sha>
+
+---1NqnfggO---I--
+
+---1NqnfggO---J--
+
+---1NqnfggO---Z--
+
+
+---0UQLBLFv---A--
+[01/Jan/2026:18:37:52 +0000] 176729267245.795377 93.174.93.12 60000 172.31.4.97 80
+---0UQLBLFv---B--
+GET / HTTP/1.0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+Accept: */*
+
+---0UQLBLFv---D--
+
+---0UQLBLFv---E--
+<html>\x0d\x0a<head><title>403 Forbidden</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>403 Forbidden</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---0UQLBLFv---F--
+HTTP/1.0 403
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 18:37:52 GMT
+Content-Length: 564
+Content-Type: text/html
+Connection: close
+
+---0UQLBLFv---H--
+ModSecurity: Warning. Matched "Operator `Eq' with parameter `0' against variable `REQUEST_HEADERS:Host' (Value: `0' ) [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOC>
+ModSecurity: Access denied with code 403 (phase 2). Matched "Operator `Ge' with parameter `5' against variable `TX:BLOCKING_INBOUND_ANOMALY_SCORE' (Value: `5' ) [file "/usr/sha>
+
+---0UQLBLFv---I--
+
+---0UQLBLFv---J--
+
+---0UQLBLFv---Z--
+
+
+---g0U0FhDK---A--
+[01/Jan/2026:18:53:19 +0000] 176729359925.684877 102.22.20.125 61500 172.31.4.97 80
+---g0U0FhDK---B--
+GET /admin/config.php HTTP/1.0
+User-Agent: xfa1,nvdorz,nvd0rz
+Accept: */*
+Host: 43.204.237.35
+
+---g0U0FhDK---D--
+
+---g0U0FhDK---E--
+<html>\x0d\x0a<head><title>403 Forbidden</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>403 Forbidden</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---g0U0FhDK---F--
+HTTP/1.0 403
+Server: nginx/1.24.0
+Date: Thu, 01 Jan 2026 18:53:19 GMT
+Content-Length: 162
+Content-Type: text/html
+Connection: close
+
+---g0U0FhDK---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `43.204.237.35' ) >
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `restricted-files.data' against variable `REQUEST_FILENAME' (Value: `/admin/config.php' ) [file "/usr/share/>
+ModSecurity: Access denied with code 403 (phase 2). Matched "Operator `Ge' with parameter `5' against variable `TX:BLOCKING_INBOUND_ANOMALY_SCORE' (Value: `8' ) [file "/usr/sha>
+
+---g0U0FhDK---I--
+
+---g0U0FhDK---J--
+
+---g0U0FhDK---Z--
+
+
+---tn0CALmu---A--
+[03/Jan/2026:07:47:06 +0000] 176742642623.209738 206.168.34.52 27202 172.31.4.97 80
+---tn0CALmu---B--
+GET / HTTP/1.1
+Host: 3.111.178.68
+User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+Accept: */*
+Accept-Encoding: gzip
+
+---tn0CALmu---D--
+
+---tn0CALmu---E--
+<!DOCTYPE html>\x0a<html>\x0a<head>\x0a<title>Welcome to nginx!</title>\x0a<style>\x0ahtml { color-scheme: light dark; }\x0abody { width: 35em; margin: 0 auto;\x0afont-family: >
+
+---tn0CALmu---F--
+HTTP/1.1 200
+Server: nginx/1.24.0
+Date: Sat, 03 Jan 2026 07:47:06 GMT
+Content-Length: 615
+Content-Type: text/html
+Last-Modified: Thu, 01 Jan 2026 14:50:47 GMT
+Connection: keep-alive
+ETag: "695689c7-267"
+
+---tn0CALmu---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `3.111.178.68' ) [>
+
+---tn0CALmu---I--
+
+---tn0CALmu---J--
+
+---tn0CALmu---Z--
+
+
+---qUnZ3bEl---A--
+[03/Jan/2026:07:47:10 +0000] 176742643011.452093 206.168.34.52 27216 172.31.4.97 80
+---qUnZ3bEl---B--
+GET /favicon.ico HTTP/1.1
+Host: 3.111.178.68
+User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+Accept-Encoding: gzip
+Connection: close
+
+---qUnZ3bEl---D--
+
+---qUnZ3bEl---E--
+<html>\x0d\x0a<head><title>404 Not Found</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>404 Not Found</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---qUnZ3bEl---F--
+HTTP/1.1 404
+Server: nginx/1.24.0
+Date: Sat, 03 Jan 2026 07:47:10 GMT
+Content-Length: 162
+Content-Type: text/html
+Connection: close
+
+---qUnZ3bEl---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `3.111.178.68' ) [>
+
+---qUnZ3bEl---I--
+
+---qUnZ3bEl---J--
+
+---qUnZ3bEl---Z--
+
+
+---biTbVa44---A--
+[03/Jan/2026:07:47:27 +0000] 176742644722.393520 206.168.34.52 11572 172.31.4.97 80
+---biTbVa44---B--
+GET /robots.txt HTTP/1.1
+Host: 3.111.178.68
+User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+Accept: */*
+Accept-Encoding: gzip
+
+---biTbVa44---D--
+
+---biTbVa44---E--
+<html>\x0d\x0a<head><title>404 Not Found</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>404 Not Found</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---biTbVa44---F--
+HTTP/1.1 404
+Server: nginx/1.24.0
+Date: Sat, 03 Jan 2026 07:47:27 GMT
+Content-Length: 162
+Content-Type: text/html
+Connection: keep-alive
+
+---biTbVa44---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `3.111.178.68' ) [>
+
+---biTbVa44---I--
+
+---biTbVa44---J--
+
+---biTbVa44---Z--
+
+
+---SG7JvoNo---A--
+[03/Jan/2026:08:03:47 +0000] 17674274274.436798 95.215.0.144 45506 172.31.4.97 80
+---SG7JvoNo---B--
+GET / HTTP/1.1
+User-Agent: fasthttp
+Host: 3.111.178.68:80
+
+---SG7JvoNo---D--
+
+---SG7JvoNo---E--
+<!DOCTYPE html>\x0a<html>\x0a<head>\x0a<title>Welcome to nginx!</title>\x0a<style>\x0ahtml { color-scheme: light dark; }\x0abody { width: 35em; margin: 0 auto;\x0afont-family: >
+
+---SG7JvoNo---F--
+HTTP/1.1 200
+Server: nginx/1.24.0
+Date: Sat, 03 Jan 2026 08:03:47 GMT
+Content-Length: 615
+Content-Type: text/html
+Last-Modified: Thu, 01 Jan 2026 14:50:47 GMT
+Connection: keep-alive
+ETag: "695689c7-267"
+
+---SG7JvoNo---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `3.111.178.68:80' >
+
+---SG7JvoNo---I--
+
+---SG7JvoNo---J--
+
+---SG7JvoNo---Z--
+
+
+---aLyihjcV---A--
+[03/Jan/2026:08:03:47 +0000] 176742742762.520624 95.215.0.144 46180 172.31.4.97 80
+---aLyihjcV---B--
+GET /aaa9 HTTP/1.1
+Host: 3.111.178.68:80
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+Accept-Encoding: gzip
+Connection: close
+
+---aLyihjcV---D--
+
+---aLyihjcV---E--
+<html>\x0d\x0a<head><title>404 Not Found</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>404 Not Found</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---aLyihjcV---F--
+HTTP/1.1 404
+Server: nginx/1.24.0
+Date: Sat, 03 Jan 2026 08:03:47 GMT
+Content-Length: 564
+Content-Type: text/html
+Connection: close
+
+---aLyihjcV---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `3.111.178.68:80' >
+
+---aLyihjcV---I--
+
+---aLyihjcV---J--
+
+---aLyihjcV---Z--
+
+
+
+---DO2HzG0Z---A--
+[03/Jan/2026:08:03:48 +0000] 176742742852.982981 95.215.0.144 46198 172.31.4.97 80
+---DO2HzG0Z---B--
+GET /aab9 HTTP/1.1
+Host: 3.111.178.68:80
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+Accept-Encoding: gzip
+Connection: close
+
+---DO2HzG0Z---D--
+
+---DO2HzG0Z---E--
+<html>\x0d\x0a<head><title>404 Not Found</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>404 Not Found</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---DO2HzG0Z---F--
+HTTP/1.1 404
+Server: nginx/1.24.0
+Date: Sat, 03 Jan 2026 08:03:48 GMT
+Content-Length: 564
+Content-Type: text/html
+Connection: close
+
+---DO2HzG0Z---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `3.111.178.68:80' >
+
+---DO2HzG0Z---I--
+
+---DO2HzG0Z---J--
+
+---DO2HzG0Z---Z--
+
+
+---wU8R2BTS---A--
+[03/Jan/2026:08:04:03 +0000] 176742744365.714365 46.161.50.108 49622 172.31.4.97 80
+---wU8R2BTS---B--
+GET /aaa9 HTTP/1.1
+Host: 3.111.178.68:80
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+Accept-Encoding: gzip
+Connection: close
+
+---wU8R2BTS---D--
+
+---wU8R2BTS---E--
+<html>\x0d\x0a<head><title>404 Not Found</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>404 Not Found</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---wU8R2BTS---F--
+HTTP/1.1 404
+Server: nginx/1.24.0
+Date: Sat, 03 Jan 2026 08:04:03 GMT
+Content-Length: 564
+Content-Type: text/html
+Connection: close
+
+---wU8R2BTS---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `3.111.178.68:80' >
+
+---wU8R2BTS---I--
+
+---wU8R2BTS---J--
+
+---wU8R2BTS---Z--
+
+
+---XECQYdAe---A--
+[03/Jan/2026:08:04:04 +0000] 176742744421.471527 46.161.50.108 49646 172.31.4.97 80
+---XECQYdAe---B--
+GET /aab9 HTTP/1.1
+Host: 3.111.178.68:80
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+Accept-Encoding: gzip
+Connection: close
+
+---XECQYdAe---D--
+
+---XECQYdAe---E--
+<html>\x0d\x0a<head><title>404 Not Found</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>404 Not Found</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---XECQYdAe---F--
+HTTP/1.1 404
+Server: nginx/1.24.0
+Date: Sat, 03 Jan 2026 08:04:04 GMT
+Content-Length: 564
+Content-Type: text/html
+Connection: close
+
+---XECQYdAe---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `3.111.178.68:80' >
+
+---XECQYdAe---I--
+
+---XECQYdAe---J--
+
+---XECQYdAe---Z--
+
+
+---alCc5KGX---A--
+[03/Jan/2026:08:13:27 +0000] 176742800742.971638 20.65.195.105 46470 172.31.4.97 80
+---alCc5KGX---B--
+GET /manager/html HTTP/1.1
+Host: 3.111.178.68
+User-Agent: Mozilla/5.0 zgrab/0.x
+Accept: */*
+Accept-Encoding: gzip
+
+---alCc5KGX---D--
+
+---alCc5KGX---E--
+<html>\x0d\x0a<head><title>403 Forbidden</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>403 Forbidden</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---alCc5KGX---F--
+HTTP/1.1 403
+Server: nginx/1.24.0
+Date: Sat, 03 Jan 2026 08:13:27 GMT
+Content-Length: 162
+Content-Type: text/html
+Connection: keep-alive
+
+---alCc5KGX---H--
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `scanners-user-agents.data' against variable `REQUEST_HEADERS:User-Agent' (Value: `Mozilla/5.0 zgrab/0.x' ) >
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `3.111.178.68' ) [>
+ModSecurity: Access denied with code 403 (phase 2). Matched "Operator `Ge' with parameter `5' against variable `TX:BLOCKING_INBOUND_ANOMALY_SCORE' (Value: `8' ) [file "/usr/sha>
+
+---alCc5KGX---I--
+
+---alCc5KGX---J--
+
+---alCc5KGX---Z--
+
+
+---1gJCaXPH---A--
+[03/Jan/2026:08:13:30 +0000] 176742801070.877031 103.203.56.2 54556 172.31.4.97 80
+---1gJCaXPH---B--
+GET / HTTP/1.1
+Host: 3.111.178.68
+User-Agent: HTTP Banner Detection (https://security.ipip.net)
+Connection: close
+
+---1gJCaXPH---D--
+
+---1gJCaXPH---E--
+<!DOCTYPE html>\x0a<html>\x0a<head>\x0a<title>Welcome to nginx!</title>\x0a<style>\x0ahtml { color-scheme: light dark; }\x0abody { width: 35em; margin: 0 auto;\x0afont-family: >
+
+---1gJCaXPH---F--
+HTTP/1.1 200
+Server: nginx/1.24.0
+Date: Sat, 03 Jan 2026 08:13:30 GMT
+Content-Length: 615
+Content-Type: text/html
+Last-Modified: Thu, 01 Jan 2026 14:50:47 GMT
+Connection: close
+ETag: "695689c7-267"
+
+---1gJCaXPH---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `3.111.178.68' ) [>
+
+---1gJCaXPH---I--
+
+---1gJCaXPH---J--
+
+---1gJCaXPH---Z--
+
+
+---SUdMBe6i---A--
+[03/Jan/2026:08:19:33 +0000] 176742837341.241923 141.98.11.140 36506 172.31.4.97 80
+---SUdMBe6i---B--
+GET / HTTP/1.1
+Host: 3.111.178.68:80
+
+---SUdMBe6i---D--
+
+---SUdMBe6i---E--
+<!DOCTYPE html>\x0a<html>\x0a<head>\x0a<title>Welcome to nginx!</title>\x0a<style>\x0ahtml { color-scheme: light dark; }\x0abody { width: 35em; margin: 0 auto;\x0afont-family: >
+
+---SUdMBe6i---F--
+HTTP/1.1 200
+Server: nginx/1.24.0
+Date: Sat, 03 Jan 2026 08:19:33 GMT
+Content-Length: 615
+Content-Type: text/html
+Last-Modified: Thu, 01 Jan 2026 14:50:47 GMT
+Connection: keep-alive
+ETag: "695689c7-267"
+
+---SUdMBe6i---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `3.111.178.68:80' >
+
+---SUdMBe6i---I--
+
+---SUdMBe6i---J--
+
+---SUdMBe6i---Z--
+
+
+---qH9OsJ3T---A--
+[03/Jan/2026:08:34:04 +0000] 176742924418.461460 101.32.192.203 54748 172.31.4.97 80
+---qH9OsJ3T---B--
+HEAD /Core/Skin/Login.aspx HTTP/1.1
+Host: 3.111.178.68:80
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Proxy-Connection: keep-alive
+Accept-Language: zh-CN,zh;q=0.9
+Cache-Control: no-cache
+Pragma: no-cache
+
+---qH9OsJ3T---D--
+
+---qH9OsJ3T---F--
+HTTP/1.1 404
+Server: nginx/1.24.0
+Date: Sat, 03 Jan 2026 08:34:04 GMT
+Content-Length: 564
+Content-Type: text/html
+Connection: keep-alive
+
+---qH9OsJ3T---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `3.111.178.68:80' >
+
+---qH9OsJ3T---I--
+
+---qH9OsJ3T---J--
+
+---qH9OsJ3T---Z--
+
+
+---2D57XMeW---A--
+[03/Jan/2026:09:21:00 +0000] 176743206052.525301 52.11.7.141 41631 172.31.4.97 80
+---2D57XMeW---B--
+GET / HTTP/1.1
+Host: 3.111.178.68
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+---2D57XMeW---D--
+
+---2D57XMeW---E--
+<!DOCTYPE html>\x0a<html>\x0a<head>\x0a<title>Welcome to nginx!</title>\x0a<style>\x0ahtml { color-scheme: light dark; }\x0abody { width: 35em; margin: 0 auto;\x0afont-family: >
+
+---2D57XMeW---F--
+HTTP/1.1 200
+Server: nginx/1.24.0
+Date: Sat, 03 Jan 2026 09:21:00 GMT
+Content-Length: 615
+Content-Type: text/html
+Last-Modified: Thu, 01 Jan 2026 14:50:47 GMT
+Connection: keep-alive
+ETag: "695689c7-267"
+
+---2D57XMeW---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `3.111.178.68' ) [>
+
+---2D57XMeW---I--
+
+---2D57XMeW---J--
+
+---2D57XMeW---Z--
+
+
+---2viaR6sr---A--
+[03/Jan/2026:10:13:02 +0000] 176743518270.434659 101.32.192.203 58234 172.31.4.97 80
+---2viaR6sr---B--
+HEAD /Core/Skin/Login.aspx HTTP/1.1
+Host: 3.111.178.68:80
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Proxy-Connection: keep-alive
+Accept-Language: zh-CN,zh;q=0.9
+Cache-Control: no-cache
+Pragma: no-cache
+
+---2viaR6sr---D--
+
+---2viaR6sr---F--
+HTTP/1.1 404
+Server: nginx/1.24.0
+Date: Sat, 03 Jan 2026 10:13:02 GMT
+Content-Length: 564
+Content-Type: text/html
+Connection: keep-alive
+
+---2viaR6sr---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `3.111.178.68:80' >
+
+---2viaR6sr---I--
+
+---2viaR6sr---J--
+
+---2viaR6sr---Z--
+
+
+---YTBj7GRx---A--
+[03/Jan/2026:10:25:30 +0000] 176743593049.413586 172.105.128.13 10094 172.31.4.97 80
+---YTBj7GRx---B--
+GET / HTTP/1.1
+Host: 3.111.178.68
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip
+
+---YTBj7GRx---D--
+
+---YTBj7GRx---E--
+<!DOCTYPE html>\x0a<html>\x0a<head>\x0a<title>Welcome to nginx!</title>\x0a<style>\x0ahtml { color-scheme: light dark; }\x0abody { width: 35em; margin: 0 auto;\x0afont-family: >
+
+---YTBj7GRx---F--
+HTTP/1.1 200
+Server: nginx/1.24.0
+Date: Sat, 03 Jan 2026 10:25:30 GMT
+Content-Length: 615
+Content-Type: text/html
+Last-Modified: Thu, 01 Jan 2026 14:50:47 GMT
+Connection: keep-alive
+ETag: "695689c7-267"
+
+---YTBj7GRx---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `3.111.178.68' ) [>
+
+---YTBj7GRx---I--
+
+---YTBj7GRx---J--
+
+---YTBj7GRx---Z--
+
+
+---XaMPrNqt---A--
+[03/Jan/2026:10:31:18 +0000] 176743627850.307353 34.79.212.205 35622 172.31.4.97 80
+---XaMPrNqt---B--
+GET / HTTP/1.1
+Host: 3.111.178.68
+User-Agent: python-requests/2.32.5
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+---XaMPrNqt---D--
+
+---XaMPrNqt---E--
+<!DOCTYPE html>\x0a<html>\x0a<head>\x0a<title>Welcome to nginx!</title>\x0a<style>\x0ahtml { color-scheme: light dark; }\x0abody { width: 35em; margin: 0 auto;\x0afont-family: >
+
+---XaMPrNqt---F--
+HTTP/1.1 200
+Server: nginx/1.24.0
+Date: Sat, 03 Jan 2026 10:31:18 GMT
+Content-Length: 615
+Content-Type: text/html
+Last-Modified: Thu, 01 Jan 2026 14:50:47 GMT
+Connection: keep-alive
+ETag: "695689c7-267"
+
+---XaMPrNqt---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `3.111.178.68' ) [>
+
+---XaMPrNqt---I--
+
+---XaMPrNqt---J--
+
+---XaMPrNqt---Z--
+
+
+---awy5IabK---A--
+[03/Jan/2026:10:37:05 +0000] 176743662521.347989 45.79.5.11 41141 172.31.4.97 80
+---awy5IabK---B--
+GET / HTTP/1.1
+Host: 3.111.178.68
+Accept: */*
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 zgrab/0.x
+
+---awy5IabK---D--
+
+---awy5IabK---E--
+<html>\x0d\x0a<head><title>403 Forbidden</title></head>\x0d\x0a<body>\x0d\x0a<center><h1>403 Forbidden</h1></center>\x0d\x0a<hr><center>nginx/1.24.0 (Ubuntu)</center>\x0d\x0a</>
+
+---awy5IabK---F--
+HTTP/1.1 403
+Server: nginx/1.24.0
+Date: Sat, 03 Jan 2026 10:37:05 GMT
+Content-Length: 162
+Content-Type: text/html
+Connection: keep-alive
+
+---awy5IabK---H--
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `scanners-user-agents.data' against variable `REQUEST_HEADERS:User-Agent' (Value: `Mozilla/5.0 zgrab/0.x' ) >
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `3.111.178.68' ) [>
+ModSecurity: Access denied with code 403 (phase 2). Matched "Operator `Ge' with parameter `5' against variable `TX:BLOCKING_INBOUND_ANOMALY_SCORE' (Value: `8' ) [file "/usr/sha>
+
+---awy5IabK---I--
+
+---awy5IabK---J--
+
+---awy5IabK---Z--
+
+
+---UHsvLikt---A--
+[03/Jan/2026:10:37:13 +0000] 176743663334.751016 172.236.228.245 46182 172.31.4.97 80
+---UHsvLikt---B--
+GET / HTTP/1.1
+Host: 3.111.178.68
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip
+
+---UHsvLikt---D--
+
+---UHsvLikt---E--
+<!DOCTYPE html>\x0a<html>\x0a<head>\x0a<title>Welcome to nginx!</title>\x0a<style>\x0ahtml { color-scheme: light dark; }\x0abody { width: 35em; margin: 0 auto;\x0afont-family: >
+
+---UHsvLikt---F--
+HTTP/1.1 200
+Server: nginx/1.24.0
+Date: Sat, 03 Jan 2026 10:37:13 GMT
+Content-Length: 615
+Content-Type: text/html
+Last-Modified: Thu, 01 Jan 2026 14:50:47 GMT
+Connection: keep-alive
+ETag: "695689c7-267"
+
+---UHsvLikt---H--
+ModSecurity: Warning. Matched "Operator `Rx' with parameter `(?:^([\d.]+|\[[\da-f:]+\]|[\da-f:]+)(:[\d]+)?$)' against variable `REQUEST_HEADERS:Host' (Value: `3.111.178.68' ) [>
+
+---UHsvLikt---I--
+
+---UHsvLikt---J--
+
+---UHsvLikt---Z--
