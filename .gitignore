@@ -1,0 +1,4 @@
+backend-sim/
+logs/
+*.log
+*.json
